@@ -3,6 +3,8 @@ import hero from "../assets/img/Hero/download (6).jpeg";
 const Hero = () => {
   return (
     <>
+
+
       {" "}
       <br />
       <br /> <br />
@@ -29,6 +31,7 @@ const Hero = () => {
           </span>
           <br />
         </div>
+        {/* text */}
         <br />
         <br /> <br />
         <br /> <br />
