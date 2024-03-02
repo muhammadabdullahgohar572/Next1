@@ -8,7 +8,7 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   return (
     <>
-      <div className=" ">
+      <div className="absolute ">
         <div className="p-7 w-screen sm:flex grid grid-cols-2 sm:justify-normal justify-between align-middle mx-auto shadow-xl bg-white">
           <div>
             <Image className="cursor-pointer " src={Logo} alt="logo img" />
@@ -71,7 +71,7 @@ const Navbar = () => {
               </div>
             </div>
 
-            <div className="mt-[10%]">
+            <div className="mt-[10%] relative">
               <div className="md:hidden block align-middle ml-[8%] mt-[3%] font-semibold">
                 <span className="ml-[5%] mt-[30px] hover:text-purple-700 hover:underline-offset-1 hover:underline cursor-pointer">
                   Universities
