@@ -8,7 +8,7 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   return (
     <>
-      <div className="absolute ">
+      <div className=" ">
         <div className="p-7 w-screen sm:flex grid grid-cols-2 sm:justify-normal justify-between align-middle mx-auto shadow-xl bg-white">
           <div>
             <Image className="cursor-pointer " src={Logo} alt="logo img" />

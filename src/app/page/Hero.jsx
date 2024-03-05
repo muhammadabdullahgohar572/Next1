@@ -3,8 +3,6 @@ import hero from "../assets/img/Hero/download (6).jpeg";
 const Hero = () => {
   return (
     <>
-
-
       {" "}
       <br />
       <br /> <br />
@@ -14,18 +12,13 @@ const Hero = () => {
       <br />
       <br />
       <div className="absolute -z-30">
-        <Image
-          src={hero}
-          alt=""
-          className="sm:ml-[30%] ml-[10%]  sm:w-[100%] w-[80%] h-[200px] sm:h-[200px]"
-          srcset=""
-        />
+        <Image src={hero} alt="" className="w-screen " srcset="" />
       </div>
       <br />
       <br />
       <div className=" text-center align-middle  ">
         <div className="">
-          <span className="text-red-600  font-extrabold text-2xl ">
+          <span className="text-red-600  font-extrabold text-2xl  sm:text-2xl ">
             Find Your <span className="bg-yellow-400 text-white">Future</span>
             Today!
           </span>
@@ -34,9 +27,15 @@ const Hero = () => {
         {/* text */}
         <br />
         <br /> <br />
-        <br /> <br />
-        <br />
-        <div className="mt-3 p-3 sm:p-0">
+        <div className="sm:block hidden">
+          <br /> <br />
+          <br /> <br />
+          <br />
+          <br /> <br />
+          <br /> <br />
+          <br />
+        </div>
+        <div className="mt-5 sm:mt-6 p-3  sm:p-0">
           <p>Explore your options and make informed decisions with our</p>
           <p>comprehensive guide to universities around the world. Discover</p>
           <p>top-ranked institutions, explore diverse programs, and connect</p>
@@ -52,6 +51,9 @@ const Hero = () => {
           </p>
           <p> your perfect fit!</p>
         </div>
+      </div>
+      <div className="text-center mt-[5%]">
+        <button className="bg-yellow-400 p-[1%] text-white">GET STARTED</button>
       </div>
     </>
   );
