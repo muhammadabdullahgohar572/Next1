@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <>
       <div className=" ">
-        <div className="p-7 w-screen sm:flex grid grid-cols-2 sm:justify-normal justify-between align-middle mx-auto shadow-xl bg-white">
+        <div className="p-7  sm:flex grid grid-cols-2 sm:justify-normal justify-between align-middle mx-auto shadow-xl bg-white">
           <div>
             <Image className="cursor-pointer " src={Logo} alt="logo img" />
           </div>
@@ -42,6 +42,8 @@ const Navbar = () => {
             </button>
           </div>
 
+
+
           {/* Hamburger menu */}
           <div className="md:hidden justify-end block">
             <Image
@@ -53,6 +55,17 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+
+
+
+
+
+
+
+
+
+
+
       {nav ? (
         <>
           <div className="fixed top-0 left-0  p-[5%] bottom-0 bg-white shadow-xl transition-shadow  w-[100%] h-screen md:hidden duration-300">

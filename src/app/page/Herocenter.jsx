@@ -1,6 +1,7 @@
 "use Client ";
 import Image from "next/image";
 import Imge1 from "../assets/img/Hero/Rectangle.png";
+
 import mag from "../assets/img/hero1/Group.png";
 import arrow from "../assets/img/hero1/Sideways_Arrow_Icon.png";
 import home from "../assets/img/hero1/Group (1).png";
@@ -27,8 +28,8 @@ const Hero1 = () => {
               <Image src={mag} className="" alt="mag" />
             </div>
 
-            <div className="ml-[5%]">
-              <h1 className="text-sm font-semibold">Find a course</h1>
+            <div  className=" cursor-pointer ml-[5%]">
+              <h1 className="text-sm font-semibold cursor-pointer">Find a course</h1>
               <span>
                 Search by subject, course
                 <br />
@@ -109,6 +110,22 @@ const Hero1 = () => {
             </div>
           </div>
         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
       </div>
 
       <div className=" block sm:hidden -z-30  mt-[50%] ml-[10%] sm:ml-0   sm:grid-cols-3">

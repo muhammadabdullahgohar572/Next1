@@ -1,3 +1,4 @@
+"Use Client"
 import Image from "next/image";
 import Line from "../assets/img/hero1/Rectangle 11.png";
 import No1 from "../assets/img/Campus/istockphoto-1254127323-170667a.png";
@@ -9,6 +10,9 @@ import No5 from "../assets/img/courese/istockphoto-1226452601-170667a.png";
 import No6 from "../assets/img/courese/istockphoto-1396019181-170667a.png";
 import no4 from "../assets/img/Campus/istockphoto-1398009285-612x612 1.png";
 import no5 from "../assets/img/Campus/ic_twotone-mail.png";
+const func=()=>{
+  alert("HI")
+}
 const Ranking = () => {
   return (
     <>
@@ -143,18 +147,18 @@ const Ranking = () => {
       </div>
 
       <div className="mt-[10%] text-center ">
-        <button className="border-4 border-yellow-200 bg-red-500 text-yellow-300 p-2 font-bold text-xl">
+        <button  className="border-4 border-yellow-200 bg-red-500 text-yellow-300 p-2 font-bold text-xl">
           See All
         </button>
       </div>
 
       <hr className="border  border-yellow-500 mt-[3%]" />
 
-      <div className="  mx-auto sm:flex mt-[5%] container">
+      <div className=" ml-[10%]   sm:flex mt-[5%]  sm:mx-[5%]">
         <div>
-          <Image src={no4} alt="no4" className="w-[70%]" />
+          <Image src={no4} alt="no4" className="sm:w-[70%] w-[80%] h-[]" />
         </div>
-        <div>
+        <div className="mt-[5%] ">
           <h1 className="text-2xl font-bold">We're here to help</h1>
           <span>
             Read through our FAQs and, if you can't <br />
@@ -169,7 +173,7 @@ const Ranking = () => {
               </button>
             </div>
 
-            <div className="flex ml-[5%]">
+            <div className="mt-[5%] flex ml-[5%]">
               <Image src={no5} alt="bok "  className="w-[10%] h-[50%]"/>
 
               <span className="text-yellow-300 ml-[5%]">ASK A QUESTION</span>
@@ -182,3 +186,4 @@ const Ranking = () => {
 };
 
 export default Ranking;
+

@@ -1,28 +1,37 @@
 import Image from "next/image";
-import hero from "../assets/img/Hero/download (6).jpeg";
+import hero from "../assets/img/Hero/istockphoto-1209819604-612x612 1.png";
 const Hero = () => {
   return (
     <>
       {" "}
       <br />
       <br /> <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+      
+     
       <div className="absolute -z-30">
-        <Image src={hero} alt="" className="w-screen " srcset="" />
+        <Image src={hero} alt="" className="w-screen  h-[50%]" srcset="" />
       </div>
       <br />
       <br />
+      <div className="hidden sm:block">
+      <br />
+      <br />  <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      </div>
       <div className=" text-center align-middle  ">
         <div className="">
-          <span className="text-red-600  font-extrabold text-2xl  sm:text-2xl ">
+          <span className="text-white  font-extrabold text-2xl sm:mt-[5%]  sm:text-4xl ">
             Find Your <span className="bg-yellow-400 text-white">Future</span>
             Today!
           </span>
           <br />
+          <br />
+
+          <span className="text-white  font-extrabold text-lg mt-[5%] sm:mt-[5%]  sm:text-xl">The Ultimate Guide to Universities Worldwide</span>
         </div>
         {/* text */}
         <br />
@@ -33,7 +42,10 @@ const Hero = () => {
           <br />
           <br /> <br />
           <br /> <br />
-          <br />
+         
+          
+          
+         
         </div>
         <div className="mt-5 sm:mt-6 p-3  sm:p-0">
           <p>Explore your options and make informed decisions with our</p>
